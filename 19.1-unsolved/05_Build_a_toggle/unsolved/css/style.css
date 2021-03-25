@@ -1,37 +1,31 @@
-/* Style your dropdown below! */
 .container{
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     text-align: center;
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif
 }
-
-ul{
-    margin: 0 px;
-    list-style-type: none;
-    padding: 0px;
-}
-
-li{
-    color: black;
-    padding: 15px;
-    margin: 0;
-    outline: solid 1px black;
-    background-color: white;
-}
-
+#dropDown{
+    display: none;
+} 
 #toggle{
     background-color: coral;
     color: white;
     padding: 15px;
-    font-weight: 200;
+    font-weight: 500;
     cursor: pointer;
 }
 
-#dropDown{
-    display: none;
-} 
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+}
+li{
+    padding: 15px;
+    margin: 0;
+    border: solid 1px black;
+}
 
 img{
     width: 18px;
