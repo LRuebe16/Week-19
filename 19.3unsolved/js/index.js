@@ -16,3 +16,11 @@ $(".searchButton").on("click", function(){
         $(".searchIcon").removeClass("fa-times").addClass("fa-search");
         }
 });
+
+function fade() {
+    $(".preloader").fadeOut("slow");
+    }
+    setTimeout(fade, 3000);
+
+    
+    
