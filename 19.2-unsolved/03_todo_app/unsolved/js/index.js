@@ -13,12 +13,12 @@ $(document).on("click", ".x", function(){
 // Create event listener to toggle 
 
 $(document).on("click", ".task", function(){
-    $(this).toggleclass("done");
-    if($(this).hasClass("done")){
+    $(this).toggleClass("done");
+    if ($(this).hasClass("done")) {
         $(this).find("div").removeClass("fa-times");
-        $(this).find("div").addClass("fa-check")}
+        $(this).find("div").addClass("fa-check");
+        }
     else {
-        $(this).find("div").addClass("fa-times")
+        $(this).find("div").addClass("fa-times");
     }
-
 });
